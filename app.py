@@ -8,11 +8,21 @@ from data_processor import process_data, detect_column_types
 from nlp_parser import parse_command
 from chart_generator import generate_chart
 
-st.set_page_config(page_title="Data Visualization App", layout="wide")
+# Application metadata
+__version__ = "1.0.0"
+__author__ = "Visualio Team"
+__description__ = "Data Visualization Assistant"
 
-st.title("Data Visualization Assistant")
-st.markdown("""
-Upload your data file (CSV or Excel) and use natural language to create beautiful visualizations.
+st.set_page_config(
+    page_title="Visualio - Data Visualization Assistant", 
+    layout="wide",
+    page_icon="📊",
+    initial_sidebar_state="expanded"
+)
+
+st.title("📊 Visualio - Data Visualization Assistant")
+st.markdown(f"""
+**Version {__version__}** | Upload your data file (CSV or Excel) and use natural language to create beautiful visualizations.
 No coding required!
 """)
 
@@ -135,4 +145,25 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("Made with ❤️ using Streamlit and Plotly")
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.markdown(
+        f"""
+        <div style='text-align: center'>
+            <p>Made with ❤️ using Streamlit and Plotly</p>
+            <p><small>Visualio v{__version__} | {__author__}</small></p>
+        </div>
+        """, 
+        unsafe_allow_html=True
+    )
+
+def main():
+    """Main entry point for the application."""
+    import subprocess
+    import sys
+    
+    # Launch Streamlit app
+    subprocess.run([sys.executable, "-m", "streamlit", "run", __file__])
+
+if __name__ == "__main__":
+    main()

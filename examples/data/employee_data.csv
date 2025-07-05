@@ -1,0 +1,21 @@
+Employee_ID,Name,Department,Age,Salary,Performance_Score,Years_Experience,Education_Level,City
+1001,Alice Johnson,Engineering,28,75000,4.5,5,Bachelor,Seattle
+1002,Bob Smith,Marketing,34,65000,4.2,8,Master,New York
+1003,Carol Davis,Sales,29,58000,4.8,6,Bachelor,Chicago
+1004,David Wilson,Engineering,31,82000,4.3,9,Master,San Francisco
+1005,Emma Brown,HR,26,52000,4.1,3,Bachelor,Boston
+1006,Frank Miller,Finance,38,78000,4.6,12,Master,Los Angeles
+1007,Grace Lee,Marketing,25,48000,4.0,2,Bachelor,Miami
+1008,Henry Taylor,Engineering,33,86000,4.7,10,PhD,Austin
+1009,Ivy Chen,Sales,27,62000,4.4,4,Bachelor,Denver
+1010,Jack Williams,Finance,35,72000,4.2,11,Master,Portland
+1011,Kate Thompson,HR,30,55000,4.3,7,Bachelor,Atlanta
+1012,Liam Garcia,Engineering,32,89000,4.8,8,Master,San Diego
+1013,Mia Rodriguez,Marketing,24,45000,3.9,1,Bachelor,Phoenix
+1014,Noah Martinez,Sales,36,68000,4.5,13,Master,Dallas
+1015,Olivia Anderson,Finance,29,70000,4.4,6,Bachelor,Tampa
+1016,Paul Jackson,Engineering,26,73000,4.1,4,Bachelor,Charlotte
+1017,Quinn White,HR,31,58000,4.2,8,Master,Nashville
+1018,Ruby Harris,Marketing,28,52000,4.3,5,Bachelor,Indianapolis
+1019,Sam Clark,Sales,33,64000,4.6,9,Bachelor,Columbus
+1020,Tina Lewis,Finance,27,69000,4.0,5,Master,Baltimore
