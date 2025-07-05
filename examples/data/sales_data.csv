@@ -1,0 +1,25 @@
+Product,Region,Sales,Quarter,Revenue,Customer_Satisfaction
+Laptops,North America,245,Q1,489000,4.2
+Tablets,Europe,189,Q1,283500,4.0
+Smartphones,Asia,412,Q1,618000,4.5
+Laptops,South America,156,Q1,312000,3.8
+Tablets,North America,278,Q1,417000,4.1
+Smartphones,Europe,334,Q1,501000,4.3
+Laptops,Asia,298,Q1,596000,4.4
+Tablets,South America,123,Q1,184500,3.9
+Smartphones,North America,489,Q1,733500,4.6
+Laptops,Europe,234,Q1,468000,4.0
+Tablets,Asia,267,Q1,400500,4.2
+Smartphones,South America,178,Q1,267000,3.7
+Laptops,North America,267,Q2,534000,4.3
+Tablets,Europe,203,Q2,304500,4.1
+Smartphones,Asia,445,Q2,667500,4.7
+Laptops,South America,178,Q2,356000,4.0
+Tablets,North America,289,Q2,433500,4.2
+Smartphones,Europe,356,Q2,534000,4.4
+Laptops,Asia,312,Q2,624000,4.5
+Tablets,South America,134,Q2,201000,4.0
+Smartphones,North America,512,Q2,768000,4.8
+Laptops,Europe,245,Q2,490000,4.1
+Tablets,Asia,278,Q2,417000,4.3
+Smartphones,South America,189,Q2,283500,3.8
